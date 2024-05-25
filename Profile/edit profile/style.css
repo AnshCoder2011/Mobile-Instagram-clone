@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.topbar {
+    height: 44px;
+    width: 100%;
+    border-bottom: 1px solid rgb(37, 37, 37);
+    align-items: center;
+}
+
+.back i {
+    font-size: 20px;
+    padding: 10px 16px;
+}
+
+.toptext {
+    margin-left: 95px;
+}
+
+.heading {
+    font-size: 18px;
+    color: #f5f5f5;
+    padding: 0px 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.box  {
+    background-color: #262626;
+    width: 318px;
+    height: 88px;
+    border-radius: 20px;
+}
+
+.pic img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin: 14px 16px;
+}
+
+.column {
+    margin-top: 23px;
+}
+
+.name {
+    color: #a8a8a8;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#input-file {
+    display: none;
+}
+
+#btn {
+    height: 32px;
+    width: 122.33px;
+    background-color: #0095f6;
+    padding: 6px 16px;
+    border-radius: 10px;
+}
+
+.heading2 {
+    font-size: 18px;
+    color: #f5f5f5;
+    padding: 0px 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* 
+.box2 {
+    background-color: #262626;
+    width: 318px;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 23px;
+} */
+
+#website {
+    height: 41px;
+    width: 318px;
+    border: none;
+    border-radius: 10px;
+    background-color: #262626;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-left: 23px;
+}
+
+.info {
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-left: 23px;
+    margin-top: 8px;
+    line-height: 16px;
+}
+
+.container {
+    height: 60px;
+    width: 318px;
+    border: 1px solid #202020;
+    border-radius: 9px;
+    margin-left: 23px;
+    margin-top: 10px;
+    overflow: scroll;
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.container2 {
+    height: 53px;
+    width: 318px;
+    border: 1px solid #202020;
+    border-radius: 9px;
+    margin-left: 23px;
+    margin-top: 10px;
+    overflow: scroll;
+    font-size: 19px;
+    padding: 12px 16px;
+}
